@@ -2,7 +2,11 @@
 print("Hello! Welcome to the Sundown Bracelets Chatbot. Please look for the answers to any questions you")
 print ("may have here before attempting to direct them to management. :) ")
 name = input ("Please enter your name - ")
-age = input ("Please enter your age - ")
+age = input ("Hi " + name + ", please enter your age - ")
+#if age is less than 12 leave personalized message
+# different message for ages 13-18
+# different message for ages 19-50
+# different message for ages 50 and up
 print("------------------")
 menu_options = [' Bracelet Catalog', ' Bracelet Prices', ' Customization', ' Gifts', ' Shipping', ' Exit']
 for options in menu_options:
